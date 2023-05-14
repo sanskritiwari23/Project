@@ -1,0 +1,367 @@
+body{
+    background-color: rgb(16, 1, 31);
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 13, 40);
+   height: 60px;
+    margin: 0;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(44, 30, 57);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .navbar-image {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+.logo{
+    height: 40px;
+}
+
+.navbar-images {
+    display: flex;
+  }
+  
+  .navbar-image {
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  .navbar-images img:last-child {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+.heading{
+    color: white;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 350px;
+}
+.one{
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 250px;
+  width: 200px;
+  height: 250px;
+}
+.one img{
+  margin-top: 10px;
+  height: 80px;
+  padding-left: 60px;
+  border-radius: 10px;
+}
+.one p{
+  padding-left: 65px;
+}
+.orange{
+ margin-left: 22px;
+ background-color: rgb(254, 93, 34);
+ border: none;
+ border-radius: 5px;
+ font-size: 13px;  
+ cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    color: white;
+    margin-top: 10px;
+}
+.orange :hover{
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+}
+.white{
+  margin-left: 28px;
+  background-color: white;
+  border: none;
+  padding: 5px 3px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: rgb(91, 190, 91);
+  border-radius: 50%;
+  display: inline-block;
+}
+.two{
+  margin-top: -250px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 480px;
+  width: 200px;
+  height: 250px;
+}
+.two img{
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+  padding-left: 60px;
+  border-radius: 10px;
+}
+.two p{
+  padding-left: 55px;
+}
+
+
+.three{
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 710px;
+  margin-top: -250px;
+  width: 200px;
+  height: 250px;
+}
+.three img{
+  margin-top: 10px;
+  height: 80px;
+  width: 70px;
+  padding-left: 70px;
+  border-radius: 10px;
+}
+.three p{
+  padding-left: 40px;
+}
+
+.four{
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 940px;
+  margin-top: -250px;
+  width: 200px;
+  height: 250px;
+}
+.four img{
+  margin-top: 10px;
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.four p{
+  padding-left: 70px;
+  padding-top: 25px;
+}
+
+.five{
+  margin-top: 30px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 250px;
+  width: 200px;
+  height: 250px;
+}
+.five img{
+  margin-top: 10px;
+  height: 50px;
+  padding-left: 65px;
+  border-radius: 10px;
+}
+.five p{
+  padding-left: 70px;
+}
+
+.six{
+  margin-top: -250px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 480px;
+  width: 200px;
+  height: 250px;
+}
+.six img{
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+.six p{
+  padding-left: 70px;
+}
+
+.seven{
+  margin-top: -250px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 710px;
+  width: 200px;
+  height: 250px;
+}
+.seven img{
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+.seven p{
+  padding-left: 35px;
+}
+
+.eight{
+  margin-top: -250px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 940px;
+  width: 200px;
+  height: 250px;
+}
+.eight img{
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+.eight p{
+  padding-left: 60px;
+}
+
+.nine{
+  margin-top: 30px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 250px;
+  width: 200px;
+  height: 250px;
+}
+.nine img{
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  padding-left: 45px;
+  border-radius: 10px;
+}
+.nine p{
+  padding-left: 60px;
+}
+
+.ten{
+  margin-top: -250px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 480px;
+  width: 200px;
+  height: 250px;
+}
+.ten img{
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  padding-left: 50px;
+  border-radius: 10px;
+}
+.ten p{
+  padding-left: 65px;
+}
+
+.eleven{
+  margin-top: -250px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 710px;
+  width: 200px;
+  height: 250px;
+}
+.eleven img{
+  margin-top: 10px;
+  height: 50px;
+  width: 90px;
+  padding-left: 55px;
+  border-radius: 10px;
+}
+.eleven p{
+  padding-left: 65px;
+}
+
+.twelve{
+  margin-top: -250px;
+  border-radius: 25px;
+  background-color: rgb(240, 236, 236);
+  margin-left: 940px;
+  width: 200px;
+  height: 250px;
+}
+.twelve img{
+  margin-top: 10px;
+  height: 50px;
+  width: 90px;
+  padding-left: 50px;
+  border-radius: 10px;
+}
+.twelve p{
+  padding-left: 60px;
+}
+.sidebar {
+  /* flex: auto; */
+  
+  margin-top: 60px;
+  margin-bottom:200px;
+  position: absolute;
+   left: 0;
+  top: 0; 
+  bottom:0;
+  width: 50px;
+  height: 133%;
+  background-color: rgb(32, 21, 44);
+  
+}
+
+.sidebar img {
+  display: block;
+  margin: 20px auto;
+  max-width: 50px;
+}
+
+@media  screen and (max-width) {
+  .two{
+    margin: 30px;
+  }
+}
